@@ -2,7 +2,7 @@ import random
 
 edi_choices = ["rock", "paper", "scissors"]
 
-player_choices = input("Please choose (Rock,Paper,Scissors): ")
+player_choices = input("Please choose (rock,paper,scissors): ")
 if player_choices not in edi_choices:
     print("Invalid. Plese try again")
 edi_play = random.choice(edi_choices)
