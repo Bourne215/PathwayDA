@@ -4,7 +4,7 @@ edi_choices = ["rock", "paper", "scissors"]
 
 player_choices = input("Please choose (rock,paper,scissors): ")
 if player_choices not in edi_choices:
-    print("Invalid. Plese try again")
+    print("Invalid. Please try again")
 edi_play = random.choice(edi_choices)
 if player_choices == edi_play:
     print(edi_play)
